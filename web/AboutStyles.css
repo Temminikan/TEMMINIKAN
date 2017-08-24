@@ -1,0 +1,592 @@
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: gray;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px; 
+             background-color: whitesmoke
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    color: white;
+}
+
+/*** End of Pop up stlesheet**/
+
+/** Start of styling for the register page **/
+input{
+    border-radius: 8px;
+    background-color: ivory;
+    color: black;
+    font-size:  18px;
+    margin: 10px;
+}
+
+header{
+    background-image: url(images/headerImg3.jpg); 
+    width: 100%;
+    height: 150px;
+    margin-left: -8px;
+    margin-right: 1px;  
+    padding-right: 16px;
+    margin-top: -15px;
+}
+.book{
+    float: right
+}
+body{
+    background-color: white
+}
+#pages  li{
+    display: inline-block;
+    list-style: none;
+    font-size: 18px;    
+    padding: 4px;
+    margin-top: 35px;
+    float:right;
+    margin-right: 10px
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+
+    color: snow;
+    border-radius: 5px;
+    border-style:none 
+
+}
+
+.logo{
+    text-indent: -999999px;  
+    background:  url(images/lakeside.png); 
+    width: 22%;
+    height: 100px; 
+    margin-top: 20px;
+    margin-left:  -35px;
+    float: left
+}
+/**Start of footer styling for Registration Page**/
+#foot{
+    background-color: lightslategrey;
+    width: 100%;
+    padding-right: 15px;
+    margin-left: -7px;
+    font-size: 20px;
+    padding-top: 4px;     
+    height: 320px;
+    margin-top: 200px;
+
+}
+/**Styling navigation in footer**/
+.footNav{
+    padding-left: 170px;
+    padding-top: 100px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sel{
+    margin-left: 10px;
+    width: 32%;
+    height:26px;
+    border-radius: 10px;
+    border-color: black;
+    color:black;
+    font-size:18px;
+    background-color:ivory
+}
+.sub{
+    float:left;
+    margin-left: 100px;
+}
+
+#name{
+    margin-left: 20px;
+}
+#comment{
+    margin-left: 20px;
+    width: 60%;
+    height: 130px;
+    background-color: ivory
+}
+
+#gender{
+    width:32%
+}
+#state{
+    width: 32%
+}
+#dob{
+    width: 32%
+}
+#user_name{
+    width: 32%
+}
+#user_email{
+    width:200px;
+    margin-left:  100px;
+}
+#phone{
+    width: 32%;
+    
+}
+#password{
+    width: 200px;
+    margin-left:  100px;
+}
+#confirm_password{
+    width:200px;
+    margin-left: 100px;
+}
+#address{
+    width: 32%
+}
+#country{
+    width:32%
+}
+#error_msg{color:red; font-weight:bold;}
+
+#logReg{
+    margin-left: 450px
+}
+/** End of styling for the register page **/
+
+
+/**Start of footer styling for and Booking Page**/
+#footing{
+    background-color:gray;
+    width: 100%;
+    padding-right: 15px;
+    margin-left: -7px;
+    font-size: 20px;
+    padding-top: 4px;     
+    height: 320px;
+    margin-top: 200px;
+
+}
+/**Styling navigation in footer**/
+
+.sel{
+    margin-left: 10px;
+    width: 28%;
+    height:30px;
+    border-radius: 10px;
+    border-color: black;
+    color:black;
+    font-size:18px;
+    background-color:ivory
+}
+
+#password{
+    margin-right: 200px
+}
+
+
+/**Start of  styling of booking menu**/
+#contain{  
+    width: 80%;
+    height: 600px; 
+
+    margin-top:-10px;
+    margin-left: 50px;  
+    border-radius: 10px;
+    color: black;
+    padding-top: -10px; 
+}
+
+#submitted{
+    margin-top: 5px;
+    margin-left: 130px;
+    
+}
+
+#reset{
+    margin-left: 50px;
+}
+#occupants{
+    width: 220%;
+    height:35px;
+    margin-left: -150px;
+}
+#favourite_meal{
+    width: 220%;
+    margin-left: -150px;
+    height:35px;
+}
+#air_condition{
+    width: 185%;
+    height:35px;
+    margin-left: -130px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: ivory;       
+}
+
+#check_in{
+    height:35px;
+    margin-left: -150px;
+}
+#check_out{
+    height:35px;
+    margin-left: -130px;
+}
+#favourite_drink{
+    width: 185%;
+    margin-left: -130px;
+    height:35px;
+}
+.tab1{  
+    width: 50%;
+    height: 350px; 
+    float: left;
+    border-radius: 10px;
+    margin-left: 20px;
+
+}
+.tab2{  
+    width: 53%;
+    height: 350px; 
+    border:none;
+    margin-top:-350px;
+    float: right;
+    margin-left: -10px;
+
+}
+.checkOut{
+    /** margin-left: 120px;*/
+    float: left;
+    padding-top: 20px; 
+    margin-left: 420px;
+}
+
+#Response{
+    background-color: lightslategray;
+    color: snow;
+    font-size: 18px;
+    height:200px;
+}
+h2{
+    margin-left: 250px;
+    margin-bottom: -50px;
+}
+/**End of  styling of booking menu and Booking Page**/
+
+
+.sideImage{
+    margin-top: -507px;   
+    margin-left:700px; 
+    background-color: white
+}
+#clientImg{
+    float: right;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 70px;
+}
+
+.comment_box{
+    background-color: white;
+     margin-left: 50px;
+}
+.speech{
+    color:red;  
+    float: right;
+    margin-top: 100px;
+    margin-right: 90px;
+}
+
+.feedback{
+    margin-left: -200px; 
+    color:gray;  
+    margin-top: 550px;
+}
+
+/** Start of image styling**/
+#container{
+    position: relative;
+}
+.slide{
+    width:100%;
+    visibility: hidden
+}
+
+.layer1, .layer2, .layer3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top:0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.layer1{
+    background-image: url( slides/1.jpg);
+
+}
+.layer2{
+    background-image: url( slides/2.jpg);
+    animation: layer2Anim 10s infinite;
+}
+.layer3{
+    background-image: url( slides/3.jpg);
+    animation: layer3Anim 15s infinite;
+}
+
+/** Start Of keyFrames**/
+
+@keyframes layer2Anim{
+    0%{
+        opacity:0;
+    }
+    17%{
+        opacity:0;
+    }
+    33%{
+        opacity:1;
+    }
+    50%{
+        opacity:1;
+    }
+    67%{
+        opacity:0;
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes layer3Anim{
+    0%{
+        opacity:0;
+    }
+
+    50%{
+        opacity:1;
+    }
+    67%{
+        opacity:0;
+    }
+    83%{
+        opacity:1;
+    }
+    100%{
+        opacity:0;
+    }
+    /**End of keyFrames**/
+}
+/**Start of Overlay Styling**/
+.slideOverlay{
+    background-image: url(slides/overlay1.png);
+    background-attachment: fixed;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top:0;
+}
+.slideOverlay p{
+    position: relative;
+    font-size: 6vw;
+    text-shadow:3px 3px 6px #000;
+    text-align: center;
+    top:20%;   
+    color:gray;
+}
+/***End of Image styling**/
+
+/**start  of styling for background of home page**/
+#back{
+    background-color:white;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.sec{
+    background-color: white;
+    width: 100%;
+    margin-top: 60px;
+    height: 420px;
+    margin-right:-6px;
+    margin-left: -2px;
+
+}
+/** End of styling for background of Index Page**/
+
+
+/**Start of footer styling for Index Page **/
+#footing{
+    background-color: blue;
+    width: 100%;
+    padding-right:15px;
+    margin-left:-7px;
+    font-size: 20px;
+    margin-top: 100px; 
+    float: top;
+    height: 10px;
+}
+
+#social{
+    font-size: 10px;
+}
+marquee{    
+    margin-top: 20px;
+    color:blue
+}
+
+#contentImg{
+    margin-top: 30px;
+    background-color: white;  
+}
+
+#conImg1{
+    margin-left: 30px;
+    border-image-width:  10px;
+}
+
+#conImg2{
+    margin-left: 970px;
+    margin-top: -255px;
+    border-image-width:  10px;
+}
+
+#conImg3{
+    border-image-width:  10px;
+    float: right;
+    padding-left: 100px;
+    margin-top: -255px;
+}
+/** End of footer styling for index Page**/
+
+.textOverImage{
+    position: relative;
+    width: 300px;
+    height: 265px;
+    float: right;
+    margin-top:  50px;
+
+    background-size:100% ;
+    padding-left: 144px;
+    transition: 0.5s;
+
+}
+.textOverImage:hover{
+    background-size: 110%
+}
+.textOverImage:after{
+    position: absolute;
+    top:90%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    white-space: pre-wrap;
+    overflow: hidden;
+    background-color:rgba(0,0,0,0,3);
+    color: black;
+    padding: 0 8px;
+    content: attr(images-text); 
+    transition: 0.5s;
+
+}
+.textOverImage:hover:after{
+    top: 0;
+    padding: 8px;
+    background-color:rgba(0,0,0,0,3);
+}
+.textOverImage:first-line{
+    color: dimgray;
+    font-weight:bold;
+    font-size: 1.5em;
+}
+
+#icons{
+    float:right;
+    margin-left: 950px;
+    color: whitesmoke;
+    margin-top: -240px;
+}
+#copy{
+    color:whitesmoke;
+    margin-top: 60px;  
+}
+.area{
+    margin-left: 30px;
+}
+.hot{
+    color:whitesmoke;
+    padding-left: 180px;
+}
+.con{
+    color: whitesmoke;
+    margin-left: 180px;
+}
+.no{
+    margin-left: 135px;
+}
+
+#lake{
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: white;
+    height: 500px;
+    width:45%
+}
+

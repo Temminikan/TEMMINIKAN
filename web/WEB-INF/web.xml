@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>BookingController</servlet-name>
+        <servlet-class>authentication.BookingController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Registration</servlet-name>
+        <servlet-class>authentication.Registration</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>commenting</servlet-name>
+        <servlet-class>authentication.commenting</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LogingIn</servlet-name>
+        <servlet-class>authentication.LogingIn</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BookingController</servlet-name>
+        <url-pattern>/users/bookings</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Registration</servlet-name>
+        <url-pattern>/users/register</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>commenting</servlet-name>
+        <url-pattern>/users/commenting</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LogingIn</servlet-name>
+        <url-pattern>/users/login</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
